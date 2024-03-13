@@ -19,7 +19,8 @@ export function Github({ settings }: Props) {
     <Card>
       <CardHeader className="grid grid-cols-[1fr_110px] items-start gap-4 space-y-0">
         <div className="space-y-1">
-          <CardTitle>image2code</CardTitle>
+          <CardTitle>Image2Code</CardTitle>
+
           <CardDescription>Convert any design to code with CREATUS.AI</CardDescription>
         </div>
         </CardHeader>
@@ -29,10 +30,12 @@ export function Github({ settings }: Props) {
           <div className="flex space-x-4 text-sm text-muted-foreground">
             Please add your OpenAI API key (must have GPT4 vision access) in the
             settings dialog above.
+
             <br />
             Create an OpenAI account if you don&apos;t have one. Then, you need
             to buy at least $1 worth of credit on the Billing dashboard.
             <br />
+
             The API key is never stored.
           </div>
         ) : (
