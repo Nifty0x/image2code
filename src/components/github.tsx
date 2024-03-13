@@ -22,22 +22,7 @@ export function Github({ settings }: Props) {
           <CardTitle>design2code</CardTitle>
           <CardDescription>Convert any design to code</CardDescription>
         </div>
-        <div className="rounded-md">
-          <Button
-            variant="default"
-            className="shadow-none"
-            onClick={() => {
-              window.open(
-                "https://github.com/mostafasadeghi97/design2code",
-                "_blank"
-              );
-            }}
-          >
-            <StarIcon className="mr-2 h-4" />
-            Star Repo
-          </Button>
-        </div>
-      </CardHeader>
+        </CardHeader>
 
       <CardContent>
         {!settings.openAiApiKey ? (
@@ -48,7 +33,7 @@ export function Github({ settings }: Props) {
             Create an OpenAI account if you don&apos;t have one. Then, you need
             to buy at least $1 worth of credit on the Billing dashboard.
             <br />
-            The API key is never stored. Check the code to confirm.
+            The API key is never stored.
           </div>
         ) : (
           <div className="flex space-x-4 text-sm text-muted-foreground">
