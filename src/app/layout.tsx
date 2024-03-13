@@ -10,8 +10,8 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Design 2 Code",
-  description: "Convert your design to code",
+  title: "Image2Code",
+  description: "Convert your design image into code",
 };
 
 export default function RootLayout({
