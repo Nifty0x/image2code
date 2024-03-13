@@ -19,8 +19,8 @@ export function Github({ settings }: Props) {
     <Card>
       <CardHeader className="grid grid-cols-[1fr_110px] items-start gap-4 space-y-0">
         <div className="space-y-1">
-          <CardTitle>design2code</CardTitle>
-          <CardDescription>Convert any design to code</CardDescription>
+          <CardTitle>image2code</CardTitle>
+          <CardDescription>Convert any design to code with CREATUS.AI</CardDescription>
         </div>
         </CardHeader>
 
