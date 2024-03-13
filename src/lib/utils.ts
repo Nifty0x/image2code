@@ -22,8 +22,8 @@ export function fileToDataURL(file: File) {
 }
 
 export function constructMetadata({
-  title = "Design2Code | convert any design to code",
-  description = "Design2Code is a tool that converts any design to code.",
+  title = "Image2Code | convert any design to code",
+  description = "Image2Code is a tool that converts any design image into code.",
   image = "/thumbnail.png",
   icons = "/favicon.ico",
   noIndex = false,
@@ -47,7 +47,7 @@ export function constructMetadata({
       ],
     },
     icons,
-    metadataBase: new URL("https://design2code.dev"),
+    metadataBase: new URL("https://creatus.ai/image2code"),
     robots: {
       index: true,
       follow: true,
