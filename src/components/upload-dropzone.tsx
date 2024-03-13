@@ -79,12 +79,12 @@ function UploadDoprzone({ setReferenceImages }: Props) {
           className="shadow-none"
           onClick={() => {
             window.open(
-              "https://github.com/mostafasadeghi97/design2code#demo-video",
+              "https://creatus.ai/",
               "_blank"
             );
           }}
         >
-          Watch the demo video
+          HOME
         </Button>
       </div>
 
