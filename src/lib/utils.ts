@@ -47,7 +47,7 @@ export function constructMetadata({
       ],
     },
     icons,
-    metadataBase: new URL("https://creatus.ai/image2code"),
+    metadataBase: new URL("https://creatus-demo.com"),
     robots: {
       index: true,
       follow: true,
