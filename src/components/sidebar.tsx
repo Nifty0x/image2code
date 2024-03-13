@@ -36,7 +36,7 @@ export function Sidebar({ settings, setSettings, appState, generatedCode, refere
       <div className="px-3 py-2 flex-1">
         
         <h1 className={cn("text-2xl font-bold mx-2 mb-4", poppins.className)}>
-          Design 2 Code
+          Image2Code
         </h1>
         
         
