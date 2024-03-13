@@ -46,12 +46,12 @@ export function Github({ settings }: Props) {
             className="shadow-none"
             onClick={() => {
               window.open(
-                "https://bytebeatbulletin.beehiiv.com/subscribe",
+                "https://creatus.ai/#demo",
                 "_blank"
               );
             }}
           >
-            Join my newsletter for updates
+            Check more free AI tools.
           </Button>
         </div>
       </CardContent>
